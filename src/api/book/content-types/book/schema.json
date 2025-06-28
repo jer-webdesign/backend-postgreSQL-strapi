@@ -1,0 +1,87 @@
+{
+  "kind": "collectionType",
+  "collectionName": "books",
+  "info": {
+    "singularName": "book",
+    "pluralName": "books",
+    "displayName": "Book"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "author": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "filename": {
+      "type": "string",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "publisher": {
+      "type": "string",
+      "required": true
+    },
+    "published_date": {
+      "type": "date",
+      "required": true
+    },
+    "price_cad": {
+      "type": "decimal",
+      "required": true
+    },
+    "average_rating": {
+      "type": "decimal",
+      "required": true
+    },
+    "number_of_pages": {
+      "type": "integer",
+      "required": true
+    },
+    "rating_count": {
+      "type": "integer",
+      "required": true
+    },
+    "ISBN_13": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ISBN_10": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "isNewRelease": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "isBestSeller": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    }
+  }
+}
