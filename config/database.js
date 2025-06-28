@@ -1,6 +1,12 @@
 const path = require('path');
 
 module.exports = ({ env }) => ({
+const useExternalDB = env.bool('USE_EXTERNAL_DB', false);
+
+  if (!useExternalDB) {
+    return {};
+  }  
+  return {
   connection: {
     client: 'postgres',
     connection: {
@@ -16,5 +22,6 @@ module.exports = ({ env }) => ({
       max: 15,   // increase max connections if needed
     },
   },
+ },   
 });
 
