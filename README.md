@@ -27,8 +27,7 @@ Start your Strapi application with autoReload disabled. [Learn more](https://doc
 
 ```
 npm run start
-# or
-yarn start
+
 ```
 ### `build`
 
@@ -36,8 +35,7 @@ Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-
 
 ```
 npm run build
-# or
-yarn build
+
 ```
 
 ## 3. Environment Setup
@@ -62,8 +60,7 @@ To populate the database with initial book data, CSV files should be placed in t
 
 ```
 npm run develop
-# or
-yarn develop
+
 ```
 
 The seeding scripts will automatically import book data from the CSV files during this process.
