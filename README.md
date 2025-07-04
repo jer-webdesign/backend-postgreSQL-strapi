@@ -108,6 +108,6 @@ In **Settings** > **Roles** > **Public**, enable `find` and `findOne` permission
 
 ## 8. Attributions
 
-Strapi. (n.d.). Strapi Documentation. https://docs.strapi.io/
-Strapi. (n.d.). Strapi GitHub Repository. https://github.com/strapi/strapi
-Strapi. (n.d.). Resource Center. https://strapi.io/resource-center
+- Strapi. (n.d.). Strapi Documentation. https://docs.strapi.io/
+- Strapi. (n.d.). Strapi GitHub Repository. https://github.com/strapi/strapi
+- Strapi. (n.d.). Resource Center. https://strapi.io/resource-center
